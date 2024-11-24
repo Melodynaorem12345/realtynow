@@ -1,0 +1,12 @@
+<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flat-color-icons:rating">
+<path id="Vector" d="M7.99991 15.4676C11.8659 15.4676 14.9998 12.3336 14.9998 8.46769C14.9998 4.60174 11.8659 1.46777 7.99991 1.46777C4.13397 1.46777 1 4.60174 1 8.46769C1 12.3336 4.13397 15.4676 7.99991 15.4676Z" fill="#FFCA28"/>
+<path id="Vector_2" d="M8.00025 4.13379L9.30039 6.7674L12.2007 7.20078L10.1005 9.23433L10.6005 12.1346L8.00025 10.7678L5.39998 12.1346L5.90003 9.23433L3.7998 7.20078L6.70011 6.7674L8.00025 4.13379Z" fill="url(#paint0_linear_83_4340)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_83_4340" x1="2.48202" y1="3.16817" x2="10.8222" y2="3.62192" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FC3139"/>
+<stop offset="1" stop-color="#E43239"/>
+</linearGradient>
+</defs>
+</svg>

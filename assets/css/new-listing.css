@@ -1,0 +1,296 @@
+.ms-12{
+    margin-left: 2.3rem!important;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.btn-secondary1 {
+    box-shadow: 0px 2px 8p #000 !important;
+    background-color: #fcf6f6!important;
+}
+.one_title p{
+    color: #1c1a1a;
+    font-weight: 400;
+}
+/**************residentail rent location search**************/
+.sb-example-3 .search__title {
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    color: #ff8b88;
+}
+
+.sb-example-3 .search__input {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575756;
+    background-color: transparent;
+    background-image: url("../img/new-search.svg");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #b6b1b1;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.sb-example-3 .search__input::placeholder {
+        color: rgba(87, 87, 86, 0.8);
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+.sb-example-3 .search__input:hover,
+    .search__input:focus {
+        padding: 12px 0;
+        outline: 0;
+        border: 1px solid transparent;
+        border-bottom: 2px solid #f52b2b;
+        border-radius: 0;
+        background-position: 100% center;
+    }
+.form-control.new-property-rent-dropdown{
+    appearance: auto;
+}
+h4.semi-bold-residense{
+    color: #000;
+    font-size: 1.28rem;
+    font-weight: 600;
+}
+.new-cover-residential .boxdropshadow{
+        padding: 30px;
+        margin: 0px;
+        box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+        margin: 0 auto;
+        width: 85%;
+}
+.new-cover-residential .btn-rounded {
+    border-radius: 10rem !important;
+    font-size: 13px !important;
+    line-height: 1.3;
+    box-shadow: 0 4px 9px -4px rgba(0, 0, 0, 0.35);
+}
+.new-cover-residential .onerent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.extra-new input[type=number]::-webkit-inner-spin-button,
+.extra-new input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.extra-new input[type=number]::-webkit-outer-spin-button, 
+.extra-new input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.new-arrow{
+    font-size: 1.4rem;
+    line-height: 0.55;
+}
+.new-cover-residential .btn-rounded.number-btn{
+    display: flex;
+    align-items: center;
+}
+/* .form-control.new-property-rent-dropdown{
+    color: #b3b6b9;
+} */
+/**********video and image related delete icon css********/
+.new-cover-residential .closebi {
+    position: absolute;
+    top: -24px;
+    left: 58px;
+}
+.new-cover-residential .bi.bi-play-circle-fill{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+.private-room-details{
+    box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    background: #fcf9f9;
+    border: 1px solid #dfdcdc;
+}
+.heading-room-details{
+    background-color: #424242;
+    border-radius: 4px;
+    padding: 15px 20px;
+}
+.heading-room-details h3 {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0;
+}
+.private .btn-rounded{
+    font-weight: 600;
+    color: #634848;
+}
+.onerent ul{
+    width: 100%;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 3;
+    -webkit-columns: 3;
+}
+.onerent ul li{
+    display: block;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+.fs-16{
+    font-size: 16px;
+}
+/*************nearby accessibility css***********/
+.plist-new{
+    padding:0rem 0.9rem 0rem 0.5rem;
+}
+.alert-dismissible .btn-close.plist-new-btn{
+    padding:0.8rem 0.2rem 0.2rem 0.2rem;
+    font-size: 0.5rem;
+}
+/********input increment and decrement number**********/
+.product-quantity > * {
+    width: 28px;
+}
+
+.product-quantity > .span-with-unit{
+    width: auto;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-right: 2px;
+    margin-top: 2px;
+}
+.product-quantity .font-fix-word-style{
+    font-size: 0.9rem;
+    display: contents;
+}
+.product-quantity {
+    display: inline-flex;
+    border: 1px solid #e6e6e6;
+    align-items: center;
+    height: 40px;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: rgb(122 120 120 / 54%) 0px 3px 8px;
+}
+
+.product-quantity-plus:before,
+.product-quantity-minus:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #da242b;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+}
+
+.product-quantity-plus:before {
+    content: "+";
+}
+
+.product-quantity-minus:before {
+    content: "-";
+}
+
+.product-quantity-plus,
+.product-quantity-minus {
+    position: relative;
+}
+.product-quantity-minus{
+    margin-left: 9px;
+}
+.product-quantity-plus{
+    margin-left: 13px;
+}
+
+
+@media (max-width: 1200px) {
+    .new-cover-residential .boxdropshadow{
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .mobile-d-flex{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .new-cover-residential .boxdropshadow{
+        width: 100%;
+        padding: 10px;
+    }
+    .minwidth200 {
+        min-width: 0px;
+    }
+    .pverygap {
+        padding: 1em 1em;
+    }
+    .imagesSpace {
+        padding: 1em;
+    }
+    .one_title p {
+        color: #1c1a1a;
+        font-weight: 400;
+        font-size: 0.9rem;
+        margin-bottom: 0.4rem;
+    }
+}
+@media (max-width: 767.9px) {
+    .mobile-d-flex-column{
+        flex-wrap: wrap;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .heading-room-details h3 {
+        font-size: 0.9rem;
+    }
+    .fs-15{
+        font-size: 15px;
+    }
+    .new-cover-residential .btn-rounded.number-btn{
+        display: flex;
+        align-items: center;
+        line-height: 1.4;
+        font-size: 12px!important;
+    }
+    .new-cover-residential .btn-rounded {
+        border-radius: 0.5rem !important;
+    }
+    .onerent ul{
+        columns: 1;
+        -webkit-columns: 1;
+    }
+    .form-control.new-property-rent-dropdown {
+        appearance: auto;
+        font-size: 0.8rem;
+    }
+    h4.semi-bold-residense {
+        font-size: 1.2rem;
+    }
+}

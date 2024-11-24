@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  
+    <title>RealtyNow Pvt Ltd.</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  
+   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/jquery-ui.css">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!---------------multiple select location css--------------->
+  <link href="assets/css/select2.min.css" rel="stylesheet" />
+  <link href="assets/css/select2-bootstrap4.css" rel="stylesheet" />
+  <link href="assets/css/flatpickr.min.css" rel="stylesheet" />
+  <link href="assets/css/phone-number.css" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/navtabs.css" />
+ <link href="assets/css/owl-carousel.css" rel="stylesheet"/>
+ <link href="assets/css/property.css" rel="stylesheet"/>
+ <link href="assets/css/style.css" rel="stylesheet" />
+ 
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.Default.css" />
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+  
+  </head>
+  
+  <body>
+  
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top ">
+    <div class="container-fluid d-flex align-items-center justify-content-between justify-content-md-between w90">
+      <div class="align-items-center d-md-flex"> 
+          <i class="bi bi-envelope"></i> <a href="mailto:info@realtynow.in" class="text-white">info@realtynow.in
+        </a>
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-phone"></i> <span class="d-none d-md-flex">Call us now</span> <a href="tel:+91-9963509329" class="text-white">+91-9963509329</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between w90">
+
+      <div class="d-flex align-items-center justify-content-center me-lg-0 me-1 gap-1">
+        <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="logo" class="img-fluid" /></a>
+      </div>
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+            <li><a class="nav-link scrollto" href="about-us.html">About Us</a></li>
+
+          <li class="dropdown">
+            <a href="#"><span>OUR SERVICES</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown">
+                <a href="#"><span>Property Services</span>
+                  <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="Painting.html">Painting Services</a></li>
+                  <li><a href="CleaningServices.html">Interior Cleaning Services</a></li>
+                  <li><a href="Packers&Movers.html">Packers & Movers</a></li>
+                  <li><a href="HomeInteriors.html">Home Interiors</a></li>
+                  <li><a href="PlumbingSanitoring.html">Plumbing & Sanitory Services</a></li>
+                  <li><a href="ElectricalAppliances.html">Electrical & Appliances Service</a></li>
+                  <li><a href="HomeSanitizer.html">Home Sanitization</a></li>
+                </ul>
+              </li>
+          </li>
+          <li><a href="PropertyManagement.html">Property Managment</a></li>
+          <li class="dropdown">
+            <a href="#"><span> Legal Services</span>
+              <i class="bi bi-chevron-right"></i></a>
+            <ul>
+              <li><a href="RentalAgreement.html">Rental Agreement</a></li>
+              <li><a href="DocumentScrutiny.html">Documents Scrutiny</a></li>
+              <li><a href="SaleAgreementDrafting.html">Sale Agreement Drafting</a></li>
+              <li><a href="PropertyRegistration.html">Property Registration</a></li>
+
+            </ul>
+          </li>
+        </ul>
+        </li>
+
+        <li><a class="nav-link scrollto" href="contactus.html">Contact</a></li>
+        
+        <li>
+          <a href="ListProperty.html" class="appointment-btn scrollto d-lg-none d-md-none nav-link">
+            <span class="text-white">List a Property</span>
+            <span class="badge badge-warning">Free</span>
+          </a>
+        </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <!-- .navbar -->
+      <div class="d-flex justify-content-between align-items-center align-content-center">
+
+        <div class="dropdown mobile-v-space">
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul class="mobile-show">
+                <li class="dropdown">
+                  <a class="btn dropdown-toggle notification-new-style p-0">
+                    <i class="bi bi-bell"></i><span class="badge badge-danger navbar-badge">3</span>
+                  </a>
+                  <ul class="downlone">
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Propertyshow.html">
+                    <div class="media d-flex">
+                      <img src="assets/img/premiumhyd/c8.jpg" alt="John Doe" class="me-2 rounded-circle" style="width:40px;">
+                      <div class="media-body">
+                        <h6 class="mb-0">Your listing is approved</h6>
+                        <p class="small mb-1">Date: 12/04/2022, 10:00am</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+            </ul>
+          </nav>
+        </div>
+
+        <a href="ListProperty.html" class="appointment-btn scrollto d-none d-md-inline">
+          <span class="">List a Property</span>
+          <span class="badge badge-warning">Free</span>
+        </a>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul class="mobile-show">
+            <li class="dropdown">
+              <a href="#" class="p-0"><i class="bi bi-person sizechange"></i></i></a>
+              <ul class="downlone">
+            </li>
+            <li><a class="dropdown-item mb-1" href="AccountProfile.html">Account</a></li>
+            <li><a class="dropdown-item mb-1" href="chat_app.html">chats</a></li>
+            <li><a class="dropdown-item mb-1" href="PropertyManagementalPortal.html">Property Management Portal</a></li>
+            <li><a class="dropdown-item mb-1" href="ShortlistedProperty.html">Shortlisted Properties</a></li>
+            <li><a class="dropdown-item mb-1" href="PropertyFollowers.html">Your Property Followers</a></li>
+            <li><a class="dropdown-item mb-1" href="Bookings.html">Bookings</a></li>
+            <li><a class="dropdown-item mb-1" href="blog.html">Realtynow Insights</a></li>
+            <li><a class="dropdown-item mb-1" href="ReferrelBonus.html">Referral Bonus</a></li>
+            <li><a class="dropdown-item mb-1" href="career.html">Careers</a></li>
+            <li><a class="dropdown-item login_cls" href="index.html">Log Out <i class="bi bi-arrow-bar-right"></i></a>
+            </li>
+
+
+            </li>
+          </ul>
+          </li>
+
+
+
+          </ul>
+
+        </nav>
+
+       
+      </div>
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+    <main id="main">
+
+         <!--------hero section start--------->
+      <div class="boxdropshadow1 m-0">
+        <section id="breadcrumbs" class="breadcrumbs">
+          <div class="container">
+            <ol>
+              <li><a href="index.html" class="text-dark fw-600">Home</a></li>
+              <li><a href="pg-list.html" class="text-dark fw-600">PG FOR GIRLS</a></li>
+              <li><a href="pg-list-map-view.html" class="fw-600 current">DESCRIPTION </a></li>
+            </ol>
+            
+          </div>
+    
+        </section>
+      </div>
+      <!--------hero section end--------->
+    
+      <!---------------project pic details starting sec---------------->
+      <section class="project-details-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="listing-project mt-1">
+                        <div class="property-list-all-1 py-2 pb-4">
+                            <!--------1st section--------->
+                            <div class="all-pg-more-deatils">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-9 col-lg-10 col-12">
+                                        <ul class="all-common-style all-common-style-1 d-flex align-items-center flex-xl-nowrap flex-wrap flex-lg-wrap gap-lg-4 gap-2 pt-3 pb-lg-4 pb-2 mb-1 property-mobile">
+                                            <li>
+                                                <div class="bg-width-li bg-pu-pink">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Purpose</p>
+                                                    <p class="fs-14 bold mb-0">PG</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="bg-width-li bg-lyellow">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                                                    <p class="fs-14 bold mb-0">₹ 11,000</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="bg-width-li bg-saps-light-gray">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Security deposit</p>
+                                                    <p class="fs-14 bold mb-0">₹ 3,000</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="bg-width-li bg-saps-light-gray">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Area</p>
+                                                    <p class="fs-14 bold mb-0">650 Sqft</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="bg-width-li bg-saps-light-gray">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Price Felxibility</p>
+                                                    <p class="fs-14 bold mb-0">Negotiable</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="bg-width-li bg-saps-light-gray">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Status</p>
+                                                    <p class="fs-14 bold text-success mb-0">Active</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-2 col-12">
+                                        <a href="javascript:void(0);" class="text-danger float-lg-end float-start fs-14 bold mb-lg-0 mb-2"><img src="assets/img/not-reverse.png" class="img-fluid me-1" alt="Not reverse">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--------------2nd section--------------->
+                            <div class="pg-details-photo">
+                                <div class="row align-items-xl-center">
+                                    <div class="col-lg-6">
+                                        <div class="pg-status-1">
+                                            <ul class="all-common-style all-common-style-1 d-flex align-items-center justify-content-between my-1">
+                                                <li>
+                                                    <div class="full-width">
+                                                        <p class="fs-18 fw-600 mb-0">Pg For GIRLS</p>
+                                                        <p class="pg-name mb-0">Boombolt Lifestyle Private Limited</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <span class="bg-width-white">
+                                                        <p class="fs-14 fw-600 text-success mb-0">Active</p>
+                                                    </span>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                        <div class="pg-building-photo-list mt-3">
+                                            <div id="gallery-pg-img-list" class="photos-grid-container gallery">
+                                                <div class="main-photo img-box">
+                                                  <a href="assets/img/Services/pg-list/1.png" class="glightbox" data-glightbox="type: image">
+                                                    <img src="assets/img/Services/pg-list/1.png" alt="image" class="img-fluid" />
+                                                </a>
+                                                <div class="wishlist-show-upon-img">
+                                                    <button type="button" class="btn btn-white cutom-wishlist-button p-0" onclick="toggleWishlist(this)">
+                                                        <span class="wishlist"><i class="bi bi-suit-heart"></i></span>
+                                                    </button>
+                                                </div>
+                                                </div>
+                                                <div>
+                                                  <div class="sub">
+                                                    <div class="img-box">
+                                                        <a href="https://www.youtube.com/embed/jGecel1lhmM" class="glightbox" data-glightbox="type: video">
+                                                            <img src="assets/img/Services/pg-list/2.png" alt="image" class="img-fluid" />
+                                                            <!-- Video icon -->
+                                                            <span class="video-icon"><i class="bi bi-play-circle"></i></span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="img-box">
+                                                        <a href="https://www.youtube.com/embed/jGecel1lhmM" class="glightbox" data-glightbox="type: video">
+                                                            <img src="assets/img/Services/pg-list/3.png" alt="image" class="img-fluid" />
+                                                             <!-- Video icon -->
+                                                             <span class="video-icon"><i class="bi bi-play-circle"></i></span>
+                                                        </a>
+                                                    </div>
+                                                    <div id="multi-link" class="img-box">
+                                                      <a href="assets/img/Services/pg-list/4.png" class="glightbox" data-glightbox="type: image">
+                                                        <img src="assets/img/Services/pg-list/4.png" alt="image" class="img-fluid" />
+                                                        <div class="transparent-box">
+                                                          <div class="caption">
+                                                            See 3 More Images
+                                                          </div>
+                                                        </div>
+                                                      </a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div id="more-img" class="extra-images-container hide-element">
+                                                  <a href="assets/img/Services/pg-list/1.png" class="glightbox" data-glightbox="type: image"><img src="assets/img/Services/pg-list/1.png" alt="image" class="img-fluid" /></a>
+                                                  <a href="assets/img/Services/pg-list/2.png" class="glightbox" data-glightbox="type: image"><img src="assets/img/Services/pg-list/2.png" alt="image" class="img-fluid" /></a>
+                                                  <a href="assets/img/Services/pg-list/4.png" class="glightbox" data-glightbox="type: image"><img src="assets/img/Services/pg-list/4.png" alt="image" class="img-fluid" /></a>
+                                                </div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!------------key insight section----------->
+                                        <div class="pg-product-details mt-xl-0 mt-3">
+                                            <p class="fs-18 fw-600 mb-0 text-dark">Key Insights</p>
+                                            <div class="pg-room-1">
+                                                <ul class="all-common-style all-common-style-1 d-flex align-items-center justify-content-between pt-3 pb-3 mb-0 property-mobile">
+                                                    <li>
+                                                        <div class="bg-width-li bg-dark-gray w-100 p-10">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="image-ab-room">
+                                                                    <img src="assets/img/Services/pg-list/pg-key-insight/single-and-share.png" class="img-fluid" alt="Single and Share"/>
+                                                                    <span class="fs-14 fw-500 pg-name mb-0">Single and Shared</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="bg-width-li bg-dark-gray w-100 p-10">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="image-ab-room">
+                                                                    <img src="assets/img/Services/pg-list/pg-key-insight/bathroom.png" class="img-fluid" alt="Bathroom"/>
+                                                                    <span class="fs-14 fw-500 pg-name mb-0">1-Bathroom</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="bg-width-li bg-dark-gray w-100 p-10">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="image-ab-room">
+                                                                    <img src="assets/img/Services/pg-list/pg-key-insight/preferred-any.png" class="img-fluid" alt="Preferred Any"/>
+                                                                    <span class="fs-14 fw-500 pg-name mb-0">Preferred Any</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="bg-width-li bg-dark-gray w-100 p-10">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="image-ab-room">
+                                                                    <img src="assets/img/Services/pg-list/pg-key-insight/time-meals.png" class="img-fluid" alt="Time Meals"/>
+                                                                    <span class="fs-14 fw-500 pg-name mb-0">3 Times Meals</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="bg-width-li bg-dark-gray w-100 p-10">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="image-ab-room">
+                                                                    <img src="assets/img/Services/pg-list/pg-key-insight/no-smoking.png" class="img-fluid" alt="No smoking"/>
+                                                                    <span class="fs-14 fw-500 pg-name mb-0">No Smoking</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="bg-width-li bg-dark-gray w-100 p-10">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="image-ab-room">
+                                                                    <img src="assets/img/Services/pg-list/pg-key-insight/bike-parking.png" class="img-fluid" alt="Bike Parking"/>
+                                                                    <span class="fs-14 fw-500 pg-name mb-0">Bike Parking</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="extra-pg-room pg-room-1">
+                                                <ul class="all-common-style all-common-style-1 d-flex align-items-center justify-content-between pb-3 mb-0">
+                                                    <li>
+                                                        <div class="bg-width-li pg-status-11 w-100 p-xl-3 p-2">
+                                                            <p class="fw-600 text-uppercase fc-dark-3 m-sub-heading mb-1">Possession</p>
+                                                            <p class="fs-14 fc-dark-3 mb-0">Dec,21,2024</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="bg-width-li pg-status-11 w-100 p-xl-3 p-2">
+                                                            <p class="fw-600 text-uppercase fc-dark-3 m-sub-heading mb-1">Building Age</p>
+                                                            <p class="fs-14 fc-dark-3 mb-0">2 Years</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="bg-width-li pg-status-11 w-100 p-xl-3 p-2">
+                                                            <p class="fw-600 text-uppercase fc-dark-3 m-sub-heading mb-1">Posted On</p>
+                                                            <p class="fs-14 fc-dark-3 mb-0">Feb,9,2024</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pg-schedule-time">
+                                                <div class="property-list-all-1-small pakers-movers-tab border-pg-1 pt-2 px-3 pb-2 rounded-10">
+                                                    <p class="mb-1 text-dark fs-16">Sat, 4th May at 12:00 PM </p>
+                                                    <p class="fs-14 fc-dark-3 fw-400 mb-0">Join next visit</p>
+                                                    <div class="d-flex align-items-center gap-3">
+                                                        <div class="inner-select-loc mt-3 mb-2">
+                                                            <div class="contact-field form-group">
+                                                                <div class="select-container select-date select-date-1 mb-lg-0 mb-3">
+                                                                    <input type="text" id="rangeDate" placeholder="Schedule Visit" data-input>
+                                                                    <!-- Calendar icon positioned inside the input field -->
+                                                                    <i class="bi bi-calendar-event-fill calendar-icon"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="some-text">
+                                                            <p class="fw-500 fs-14 text-dark mb-0">Next best time <br> preferred by owner <span class="text-danger"><i class="bi bi-hand-thumbs-up-fill"></i></span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <a href="#" class="appointment-btn  w-100 text-center mt-3" data-bs-toggle="modal" data-bs-target="#get-a-callback">
+                                                    <span class="">Get Contact</span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <!------------------------>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-----------------3rd section--------------->
+                         <div class="property-list-all-2 more-details-ab-room py-4">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <!-----Description section------>
+                                    <div class="property-list-all-1 p-4">
+                                        <h3 class="pg-heading">Description</h3>
+                                        <p class="fs-14 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum ipsam labore in velit provident impedit corporis laudantium rerum error doloribus esse iure quod expedita voluptatibus, qui facere, aliquid sint exercitationem! <a href="see-more" class="text-danger">see more</a></p>
+                                        <div class="col-lg-12">
+                                            <a href="#" class="appointment-btn  w-100 text-center mt-1 mx-0" data-bs-toggle="modal" data-bs-target="#get-a-callback">
+                                                <span class="">Get More Information</span>
+                                            </a>
+                                        </div>
+                                    </div>
+    
+                                    <!-----Single Room Details section------>
+                                    <div class="property-list-all-1 py-2 pb-4">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h3 class="pg-heading m-fs-12">Single Room Details</h3>
+                                            <h3 class="pg-heading text-uppercase fs-16  m-fs-12">Room for single occupancy</h3>
+                                        </div>
+                                        <ul class="all-common-style all-common-style-1 d-flex align-items-center flex-wrap flex-lg-nowrap gap-lg-4 gap-2 pt-3 pb-lg-4 pb-2 mb-1 property-mobile">
+                                            <li>
+                                                <div class="bg-width-li bg-lyellow">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                                                    <p class="fs-14 bold mb-0">₹ 11,000</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="bg-width-li bg-pu-pink">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Security deposit</p>
+                                                    <p class="fs-14 bold mb-0">₹ 5,000</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+    
+                                        <h3 class="pg-heading text-uppercase fs-16 mt-xl-0 mt-2">Room Amenities</h3>
+                                        <ul class="all-common-style all-common-style-1 new-li-width d-flex flex-wrap pt-3 pb-4 mb-1">
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/wifi.png" class="img-fluid" alt="wifi"/>
+                                                    <p class="mb-1 text-dark fs-16 m-fs-11 fw-600">Wifi </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/cupboard.png" class="img-fluid" alt="wifi"/>
+                                                    <p class="mb-1 text-dark fs-16 m-fs-11 fw-600">Cupboard </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/attached-bath.png" class="img-fluid" alt="wifi"/>
+                                                    <p class="mb-1 text-dark fs-16 m-fs-11 fw-600">Attached Bathroom </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/geaser.png" class="img-fluid" alt="wifi"/>
+                                                    <p class="mb-1 text-dark fs-16 m-fs-11 fw-600">Geaser </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/ac.png" class="img-fluid" alt="wifi"/>
+                                                    <p class="mb-1 text-dark fs-16 m-fs-11 fw-600">AC </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        
+                                        <div class="col-lg-12">
+                                            <a href="#" class="appointment-btn  w-100 text-center mt-1 mx-0" data-bs-toggle="modal" data-bs-target="#get-a-callback">
+                                                <span class="">Contact Now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+    
+                                    <!-----Double Room Details section------>
+                                    <div class="property-list-all-1 p-xl-4 py-2 pb-2 mt-4 mb-xl-0 mb-lg-0 mb-3">
+                                            <ul class="all-common-style all-common-style-1 new-li-width-1 d-flex flex-lg-nowrap flex-wrap">
+                                                <li><h3 class="pg-heading">Double Sharing Room Details</h3></li>
+                                                <li><h3 class="pg-heading text-uppercase fs-16 mt-1">Room for Double occupancy</h3></li>
+                                            </ul>
+                                        
+                                        <ul class="all-common-style all-common-style-1 d-flex align-items-center flex-wrap flex-lg-nowrap gap-lg-4 gap-2 pt-3 pb-lg-4 pb-2 mb-1 property-mobile">
+                                            <li>
+                                                <div class="bg-width-li bg-lyellow">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                                                    <p class="fs-14 bold mb-0">₹ 11,000</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="bg-width-li bg-pu-pink">
+                                                    <p class="new-property-details price-1 fw-500 mb-0">Security deposit</p>
+                                                    <p class="fs-14 bold mb-0">₹ 5,000</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+    
+                                        <h3 class="pg-heading text-uppercase fs-16 mt-xl-0 mt-2">Room Amenities</h3>
+                                        <ul class="room-amenties all-common-style all-common-style-1 new-li-width d-flex flex-wrap pt-md-3 pb-md-4 pt-1 pb-1 mb-1">
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/wifi.png" class="img-fluid" alt="wifi"/>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/cupboard.png" class="img-fluid" alt="wifi"/>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/attached-bath.png" class="img-fluid" alt="wifi"/>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/geaser.png" class="img-fluid" alt="wifi"/>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="amenity-container">
+                                                    <img src="assets/img/Services/pg-list/pg-amenities/ac.png" class="img-fluid" alt="wifi"/>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <!-----Viewers Details section------>
+                                    <div class="property-list-all-1 p-xl-4 pt-0 pb-2">
+                                        <p class="fs-18 fw-600 mb-0 text-center">Activity On This Property</p>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-4 col-4">
+                                                <div class="showed-viewers mx-xl-3 mx-md-0 mx-sm-3 mx-0">
+                                                    <div class="border-black-1">
+                                                        <img src="assets/img/Services/pg-list/viewer.png" class="img-fluid" alt="Viewers"/>
+                                                        <p class="mb-0 text-dark fw-600 fs-16">840</p>
+                                                        <p class="fc-dark-5 fs-14 mb-1">Viewed</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-4 col-4">
+                                                <div class="showed-viewers mx-xl-3 mx-md-0 mx-sm-3 mx-0">
+                                                    <div class="border-black-1">
+                                                        <img src="assets/img/Services/pg-list/viewer.png" class="img-fluid" alt="Viewers"/>
+                                                        <p class="mb-0 text-dark fw-600 fs-16">840</p>
+                                                        <p class="fc-dark-5 fs-14 mb-1">Viewed</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-4 col-4">
+                                                <div class="showed-viewers mx-xl-3 mx-md-0 mx-sm-3 mx-0">
+                                                    <div class="border-black-1">
+                                                        <img src="assets/img/Services/pg-list/viewer.png" class="img-fluid" alt="Viewers"/>
+                                                        <p class="mb-0 text-dark fw-600 fs-16">840</p>
+                                                        <p class="fc-dark-5 fs-14 mb-1">Viewed</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-----Popular service section------>
+                                    <div class="property-list-all-1 pt-4 pb-3 px-0 mt-4">
+                                        <p class="fs-18 fw-600 mb-0 text-center mb-4">Popular Services<span class="text-bright-yellow">New</span></p>
+                                        <div class="service-listing">
+                                            <div class="container">
+                                              <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                                        <div class="card card-1 card-2">
+                                                            <a href="service-details.html">
+                                                            <img src="assets/img/property-list/l1.png" class="card-img-top h-170" alt="...">
+                                                            <div class="card-body custom-button">
+                                                                <h5 class="card-title">Service Title</h5>
+                                                            </div>
+                                                            </a>
+                                                        </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                                        <div class="card card-1 card-2">
+                                                            <a href="service-details.html">
+                                                            <img src="assets/img/property-list/l1.png" class="card-img-top h-170" alt="...">
+                                                            <div class="card-body custom-button">
+                                                                <h5 class="card-title">Service Title</h5>
+                                                            </div>
+                                                            </a>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12 text-center">
+                                                        <a class="btn btn-4 hover-border-7 position-relative" data-bs-toggle="modal" data-bs-target="#see-all-service">
+                                                            <span class="fw-600 text-decoration-underline">SEE MORE</span>
+                                                        </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-----Legal service section------>
+                                    <div class="property-list-all-1 pt-4 pb-3 px-0 mt-4">
+                                        <p class="fs-18 fw-600 mb-0 text-center mb-4">Legal Services<span class="text-bright-yellow">New</span></p>
+                                        <div class="service-listing">
+                                            <div class="container">
+                                              <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                                        <div class="card card-1 card-2">
+                                                            <a href="service-details.html">
+                                                            <img src="assets/img/property-list/l1.png" class="card-img-top h-170" alt="...">
+                                                            <div class="card-body custom-button">
+                                                                <h5 class="card-title">Service Title</h5>
+                                                            </div>
+                                                            </a>
+                                                        </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                                        <div class="card card-1 card-2">
+                                                            <a href="service-details.html">
+                                                            <img src="assets/img/property-list/l1.png" class="card-img-top h-170" alt="...">
+                                                            <div class="card-body custom-button">
+                                                                <h5 class="card-title">Service Title</h5>
+                                                            </div>
+                                                            </a>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12 text-center">
+                                                        <a class="btn btn-4 hover-border-7 position-relative" data-bs-toggle="modal" data-bs-target="#see-all-service">
+                                                            <span class="fw-600 text-decoration-underline">SEE MORE</span>
+                                                        </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!---------------project pic details end sec---------------->
+      <!--------------------Similar properties bangalore section start here-------------------->
+      <!--------------End to end offerings section start here---------------->
+    <section class="section pt-5">
+        <div class="container custom-section-one">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading">
+                    <div class="Comericial_inner text-center">
+                        <h5 class="mb-4">Similar Properties <span class="text-danger text-decoration-underline">BANGALORE</span></h5>
+                    </div>
+                    </div>
+
+                    <div class="row">
+                    <div class="col-lg-11 mx-auto">
+                        <div class="owl-slider">
+                            <div id="projects-carousel-2" class="owl-carousel owl-carousel-1">                 
+                                <div class="item">
+                                    <div class="property-listing-1 border-radius-all">
+                                        <div class="property-inner-1">
+                                          <div class="property-item mb-4">
+                                            <div class="box-property content">
+                                              <div class="testimonial__area">
+                                                <div class="wrapper">
+                                                  <div class="testimonial">
+                                                    <div class="testimonial__card--group">
+                                                      <div class="testimonial__card">
+                                                        <img src="assets/img/property-list/l1.png" class="img-fluid border-tr" alt="...">
+                                                      </div>
+                                                      
+                                                    </div>
+                                                    
+                                                  </div>
+                                                  
+                                                </div>
+                                              </div>
+                                              <div class="media-count-wrapper-1">
+                                                <ul class="new-design-up-image">
+                                                  <li>
+                                                    <div class="icon">
+                                                        <p class="mb-0">Active</p>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                                
+                                              </div>
+                                            </div>
+                                            <div class="product-deatils">
+                                              <div class="innerOne  justify-content-between alian-items-center p-14 pt-2">
+                                                
+                                                <div class="nameProerty nameProerty-1">
+                                                  <div class="new-button-flex">
+                                                    <ul class="all-common-style all-common-style-1 d-flex justify-content-between">
+                                                      <li>
+                                                          <div class="bg-lyellow">
+                                                              <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                                                              <p class="fs-14 bold mb-0">₹ 80L-1Cr</p>
+                                                          </div>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <a href="pg-details.html"><h5 class="mb-3">PG | For Girls</h5></a> 
+                                                  <p class="pg-location mb-3"><i class="bi bi-geo-alt"></i>Indiranagar</p>
+                                                  <p class="new-property-details-1 price-1 fw-500 mb-0">Listed on : <span class="text-dark"> 28/04/2024 </span></p>
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="item">
+                                    <div class="property-listing-1 border-radius-all">
+                                        <div class="property-inner-1">
+                                          <div class="property-item mb-4">
+                                            <div class="box-property content">
+                                              <div class="testimonial__area">
+                                                <div class="wrapper">
+                                                  <div class="testimonial">
+                                                    <div class="testimonial__card--group">
+                                                      <div class="testimonial__card">
+                                                        <img src="assets/img/property-list/l1.png" class="img-fluid border-tr" alt="...">
+                                                      </div>
+                                                      
+                                                    </div>
+                                                    
+                                                  </div>
+                                                  
+                                                </div>
+                                              </div>
+                                              <div class="media-count-wrapper-1">
+                                                <ul class="new-design-up-image">
+                                                  <li>
+                                                    <div class="icon">
+                                                        <p class="mb-0">Active</p>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                                
+                                              </div>
+                                            </div>
+                                            <div class="product-deatils">
+                                              <div class="innerOne  justify-content-between alian-items-center p-14 pt-2">
+                                                
+                                                <div class="nameProerty nameProerty-1">
+                                                  <div class="new-button-flex">
+                                                    <ul class="all-common-style all-common-style-1 d-flex justify-content-between">
+                                                      <li>
+                                                          <div class="bg-lyellow">
+                                                              <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                                                              <p class="fs-14 bold mb-0">₹ 80L-1Cr</p>
+                                                          </div>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <a href="pg-details.html"><h5 class="mb-3">PG | For Girls</h5></a> 
+                                                  <p class="pg-location mb-3"><i class="bi bi-geo-alt"></i>Indiranagar</p>
+                                                  <p class="new-property-details-1 price-1 fw-500 mb-0">Listed on : <span class="text-dark"> 28/04/2024 </span></p>
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="item">
+                                    <div class="property-listing-1 border-radius-all">
+                                        <div class="property-inner-1">
+                                          <div class="property-item mb-4">
+                                            <div class="box-property content">
+                                              <div class="testimonial__area">
+                                                <div class="wrapper">
+                                                  <div class="testimonial">
+                                                    <div class="testimonial__card--group">
+                                                      <div class="testimonial__card">
+                                                        <img src="assets/img/property-list/l1.png" class="img-fluid border-tr" alt="...">
+                                                      </div>
+                                                      
+                                                    </div>
+                                                    
+                                                  </div>
+                                                  
+                                                </div>
+                                              </div>
+                                              <div class="media-count-wrapper-1">
+                                                <ul class="new-design-up-image">
+                                                  <li>
+                                                    <div class="icon">
+                                                        <p class="mb-0">Active</p>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                                
+                                              </div>
+                                            </div>
+                                            <div class="product-deatils">
+                                              <div class="innerOne  justify-content-between alian-items-center p-14 pt-2">
+                                                
+                                                <div class="nameProerty nameProerty-1">
+                                                  <div class="new-button-flex">
+                                                    <ul class="all-common-style all-common-style-1 d-flex justify-content-between">
+                                                      <li>
+                                                          <div class="bg-lyellow">
+                                                              <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                                                              <p class="fs-14 bold mb-0">₹ 80L-1Cr</p>
+                                                          </div>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <a href="pg-details.html"><h5 class="mb-3">PG | For Girls</h5></a> 
+                                                  <p class="pg-location mb-3"><i class="bi bi-geo-alt"></i>Indiranagar</p>
+                                                  <p class="new-property-details-1 price-1 fw-500 mb-0">Listed on : <span class="text-dark"> 28/04/2024 </span></p>
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="item">
+                                    <div class="property-listing-1 border-radius-all">
+                                        <div class="property-inner-1">
+                                          <div class="property-item mb-4">
+                                            <div class="box-property content">
+                                              <div class="testimonial__area">
+                                                <div class="wrapper">
+                                                  <div class="testimonial">
+                                                    <div class="testimonial__card--group">
+                                                      <div class="testimonial__card">
+                                                        <img src="assets/img/property-list/l1.png" class="img-fluid border-tr" alt="...">
+                                                      </div>
+                                                      
+                                                    </div>
+                                                    
+                                                  </div>
+                                                  
+                                                </div>
+                                              </div>
+                                              <div class="media-count-wrapper-1">
+                                                <ul class="new-design-up-image">
+                                                  <li>
+                                                    <div class="icon">
+                                                        <p class="mb-0">Active</p>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                                
+                                              </div>
+                                            </div>
+                                            <div class="product-deatils">
+                                              <div class="innerOne  justify-content-between alian-items-center p-14 pt-2">
+                                                
+                                                <div class="nameProerty nameProerty-1">
+                                                  <div class="new-button-flex">
+                                                    <ul class="all-common-style all-common-style-1 d-flex justify-content-between">
+                                                      <li>
+                                                          <div class="bg-lyellow">
+                                                              <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                                                              <p class="fs-14 bold mb-0">₹ 80L-1Cr</p>
+                                                          </div>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <a href="pg-details.html"><h5 class="mb-3">PG | For Girls</h5></a> 
+                                                  <p class="pg-location mb-3"><i class="bi bi-geo-alt"></i>Indiranagar</p>
+                                                  <p class="new-property-details-1 price-1 fw-500 mb-0">Listed on : <span class="text-dark"> 28/04/2024 </span></p>
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="item">
+                                    <div class="property-listing-1 border-radius-all">
+                                        <div class="property-inner-1">
+                                          <div class="property-item mb-4">
+                                            <div class="box-property content">
+                                              <div class="testimonial__area">
+                                                <div class="wrapper">
+                                                  <div class="testimonial">
+                                                    <div class="testimonial__card--group">
+                                                      <div class="testimonial__card">
+                                                        <img src="assets/img/property-list/l1.png" class="img-fluid border-tr" alt="...">
+                                                      </div>
+                                                      
+                                                    </div>
+                                                    
+                                                  </div>
+                                                  
+                                                </div>
+                                              </div>
+                                              <div class="media-count-wrapper-1">
+                                                <ul class="new-design-up-image">
+                                                  <li>
+                                                    <div class="icon">
+                                                        <p class="mb-0">Active</p>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                                
+                                              </div>
+                                            </div>
+                                            <div class="product-deatils">
+                                              <div class="innerOne  justify-content-between alian-items-center p-14 pt-2">
+                                                
+                                                <div class="nameProerty nameProerty-1">
+                                                  <div class="new-button-flex">
+                                                    <ul class="all-common-style all-common-style-1 d-flex justify-content-between">
+                                                      <li>
+                                                          <div class="bg-lyellow">
+                                                              <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                                                              <p class="fs-14 bold mb-0">₹ 80L-1Cr</p>
+                                                          </div>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <a href="pg-details.html"><h5 class="mb-3">PG | For Girls</h5></a> 
+                                                  <p class="pg-location mb-3"><i class="bi bi-geo-alt"></i>Indiranagar</p>
+                                                  <p class="new-property-details-1 price-1 fw-500 mb-0">Listed on : <span class="text-dark"> 28/04/2024 </span></p>
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="item">
+                                    <div class="property-listing-1 border-radius-all">
+                                        <div class="property-inner-1">
+                                          <div class="property-item mb-4">
+                                            <div class="box-property content">
+                                              <div class="testimonial__area">
+                                                <div class="wrapper">
+                                                  <div class="testimonial">
+                                                    <div class="testimonial__card--group">
+                                                      <div class="testimonial__card">
+                                                        <img src="assets/img/property-list/l1.png" class="img-fluid border-tr" alt="...">
+                                                      </div>
+                                                      
+                                                    </div>
+                                                    
+                                                  </div>
+                                                  
+                                                </div>
+                                              </div>
+                                              <div class="media-count-wrapper-1">
+                                                <ul class="new-design-up-image">
+                                                  <li>
+                                                    <div class="icon">
+                                                        <p class="mb-0">Active</p>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                                
+                                              </div>
+                                            </div>
+                                            <div class="product-deatils">
+                                              <div class="innerOne  justify-content-between alian-items-center p-14 pt-2">
+                                                
+                                                <div class="nameProerty nameProerty-1">
+                                                  <div class="new-button-flex">
+                                                    <ul class="all-common-style all-common-style-1 d-flex justify-content-between">
+                                                      <li>
+                                                          <div class="bg-lyellow">
+                                                              <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                                                              <p class="fs-14 bold mb-0">₹ 80L-1Cr</p>
+                                                          </div>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                  <a href="pg-details.html"><h5 class="mb-3">PG | For Girls</h5></a> 
+                                                  <p class="pg-location mb-3"><i class="bi bi-geo-alt"></i>Indiranagar</p>
+                                                  <p class="new-property-details-1 price-1 fw-500 mb-0">Listed on : <span class="text-dark"> 28/04/2024 </span></p>
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!--------------------Similar properties bangalore section end here-------------------->
+
+       <!-----------------Newsletter section start here--------------->
+    <section class="section bg-img pt-70 pt-40 pb-0">
+        <div class="bg-before-footer"></div>
+    </section>
+      <!-----------------Newsletter section start here--------------->
+      </main>
+      <!-- End #main -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top pt-5 mt-2">
+      <div class="container-fluid w90">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+            <div class="footer-info">
+              <img src="assets/img/RealtyNowNewLogo.png" class="img-fluid" width="250px" height="250px" />
+              <p class="text-dark">
+                Plot no.19, Road no:2B <br />
+                Chandrapuri Colony, LB Nagar, <br />
+                Hyderabad - 500074<br /><br />
+                  <strong class="text-dark">Phone:</strong> +91 94942 30774<br />
+                  <strong class="text-dark">Email:</strong> info@realtynow.in<br />
+              </p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12 footer-links">
+            <h4>Our Policies</h4>
+            <ul>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="#">Terms & Condition</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="#">Return & Refund policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12 footer-links">
+            <h4>Property Services</h4>
+            <ul>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="Packers&Movers.html">Packers & Movers</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="Painting.html">Painting Service</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="CleaningServices.html">Cleaning Service</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="HomeSanitizer.html">Home Sanitization</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="HomeInteriors.html">Home Interiors</a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="ElectricalAppliances.html">Electrical & Appliances Service</a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="PlumbingSanitoring.html">Plumbing & Sanitary</a>
+              </li>
+
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="PropertyManagement.html">Property Management</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 footer-links">
+            <h4>Legal Services</h4>
+            <ul>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="RentalAgreement.html">Rental Agreement</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="DocumentScrutiny.html">Document Scrutiny</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="SaleAgreementDrafting.html">Sale Agreement Drafting</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i> <a href="PropertyRegistration.html">Property Registration</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="LoanAssistance.html">Loan Assistance</a>
+              </li>
+
+
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 footer-newsletter">
+            <h4>Follow Us</h4>
+            <div class="social-links mt-0">
+              <a href="#" class="twitter">
+                <i class="bx bxl-twitter"></i>
+              </a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Realtynow.in</span></strong>. All Rights Reserved Designed by <a href="https://bootstrapmade.com/">Accinford Pvt Ltd</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+<div class="modal fade" id="moFilter" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h6 class="modal-title text-black" id="ModalLabel">Filter</h6>
+              <a href="#" class="text-danger">Reset</a>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body px-11 p-4">
+            
+            <div class="property-accordion">
+              <div class="accordion" id="accordion-new">
+                  <div class="accordion-item border-0 mb-2">
+                      <h2 class="accordion-header" id="headinga">
+                          <button class="accordion-button rounded-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsea" aria-expanded="false" aria-controls="collapsea">
+                              BHK Type
+                          </button>
+                      </h2>
+                      <div id="collapsea" class="accordion-collapse collapse" aria-labelledby="headinga" data-bs-parent="#accordion-new">
+                          <div class="accordion-body">
+                              <div class="p-3 boxdrops">
+                                  <div class="radioicons">
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+                                          <label class="form-check-label" for="flexRadioDefault1">1 RK</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault2">
+                                          <label class="form-check-label" for="flexRadioDefault2">1BHK</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault3">
+                                          <label class="form-check-label" for="flexRadioDefault3">2BHK</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault4">
+                                          <label class="form-check-label" for="flexRadioDefault4">3BHK</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault5">
+                                          <label class="form-check-label" for="flexRadioDefault5">4BHK +</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <div class="accordion-item border-0 mb-2">
+                      <h2 class="accordion-header" id="headingb">
+                          <button class="accordion-button rounded-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseb" aria-expanded="false" aria-controls="collapseb">
+                              Construction Status
+                          </button>
+                      </h2>
+                      <div id="collapseb" class="accordion-collapse collapse" aria-labelledby="headingb" data-bs-parent="#accordion-new">
+                          <div class="accordion-body">
+                              <div class="p-3 boxdrops">
+                                  <div class="radioicons">
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault6">
+                                          <label class="form-check-label" for="flexRadioDefault6">New Launch</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault7">
+                                          <label class="form-check-label" for="flexRadioDefault7">Under Construction</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault8">
+                                          <label class="form-check-label" for="flexRadioDefault8">Ready to Move</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault9">
+                                          <label class="form-check-label" for="flexRadioDefault9">Re-Sale</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="accordion-item border-0 mb-2">
+                      <h2 class="accordion-header" id="headingc">
+                          <button class="accordion-button rounded-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsec" aria-expanded="false" aria-controls="collapsec">
+                              Total Floors
+                          </button>
+                      </h2>
+                      <div id="collapsec" class="accordion-collapse collapse" aria-labelledby="headingc" data-bs-parent="#accordion-new">
+                          <div class="accordion-body">
+                              <div class="p-3 boxdrops">
+                                  <div class="radioicons">
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault6">
+                                          <label class="form-check-label" for="flexRadioDefault6">2</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault7">
+                                          <label class="form-check-label" for="flexRadioDefault7">4</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault8">
+                                          <label class="form-check-label" for="flexRadioDefault8">5</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault9">
+                                          <label class="form-check-label" for="flexRadioDefault9">7</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <div class="accordion-item border-0 mb-2">
+                      <h2 class="accordion-header" id="headingd">
+                          <button class="accordion-button rounded-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsed" aria-expanded="false" aria-controls="collapsed">
+                              By Budgets
+                          </button>
+                      </h2>
+                      <div id="collapsed" class="accordion-collapse collapse" aria-labelledby="headingd" data-bs-parent="#accordion-new">
+                          <div class="accordion-body">
+                              <div class="p-3 pt-5 pb-4 boxdrops">
+                                  <div id="app">
+                                      <div class="track-container">
+                                        <span class="range-value min">{{ minValue}}L </span> <span class="range-value max">{{ maxValue }}L</span>
+                                        <div class="track" ref="_vpcTrack"></div>
+                                        <div class="track-highlight" ref="trackHighlight"></div>
+                                        <button class="track-btn track1" ref="track1"></button>
+                                        <button class="track-btn track2" ref="track2"></button>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="accordion-item border-0 mb-2">
+                      <h2 class="accordion-header" id="headinge">
+                          <button class="accordion-button rounded-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsee" aria-expanded="false" aria-controls="collapsee">
+                              Square Feet
+                          </button>
+                      </h2>
+                      <div id="collapsee" class="accordion-collapse collapse" aria-labelledby="headinge" data-bs-parent="#accordion-new">
+                          <div class="accordion-body">
+                              <div class="p-3 boxdrops">
+                                  <div class="radioicons">
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault6">
+                                          <label class="form-check-label" for="flexRadioDefault6">2</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault7">
+                                          <label class="form-check-label" for="flexRadioDefault7">4</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault8">
+                                          <label class="form-check-label" for="flexRadioDefault8">5</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault9">
+                                          <label class="form-check-label" for="flexRadioDefault9">7</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="accordion-item border-0 mb-2">
+                      <h2 class="accordion-header" id="headingSix">
+                          <button class="accordion-button rounded-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                              Amenities
+                          </button>
+                      </h2>
+                      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordion-new">
+                          <div class="accordion-body">
+                              <div class="p-3 boxdrops">
+                                  <div class="radioicons">
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault6">
+                                          <label class="form-check-label" for="flexRadioDefault6">2</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault7">
+                                          <label class="form-check-label" for="flexRadioDefault7">4</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault8">
+                                          <label class="form-check-label" for="flexRadioDefault8">5</label>
+                                      </div>
+                                      <div class="form-check mb-1">
+                                          <input class="form-check-input p-0" type="checkbox" name="flexRadioDefault" id="flexRadioDefault9">
+                                          <label class="form-check-label" for="flexRadioDefault9">7</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          
+              </div>
+            </div>
+
+          </div>
+
+          <div class="modal-footer mo-modal">
+            <button type="button" class="btn btn-danger btn-hover color-11" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-succes btn-hover color-12">Apply</button>
+          </div>
+          
+      </div>
+  </div>
+</div>
+<div class="modal fade gat-callback-border" id="get-a-callback" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-sm">
+        <div class="modal-content">
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-7 mx-auto text-center">
+                  <div class="send-otp-popup py-5 px-4">
+                    <div class="call-back-header">
+                      <h6 class="modal-title text-black">Tell us Your Requirement</h6>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <form> 
+                      
+                        <div class="mb-4">
+                          <div class="select-container">
+                              <label for="select2-example">List</label>
+                              <select class="form-control border mobile-form-select new-select-appearance real-inputbox-shadow">
+                                  <option>Select Category</option>
+                                  <option>Residential</option>
+                                  <option>Commericial</option>
+                                  <option>Plots</option>
+                                  <option>PG/Co-Living</option>
+                              </select>
+                          </div> 
+                        </div>
+  
+                        <div class="mb-4">
+                          <div class="select-container">
+                              <label for="select2-example">Email <span class="text-danger">*</span></label>
+                              <input type="text" class="form-control border mobile-form-select real-inputbox-shadow" placeholder="Enter Your Email Address..." />
+                              <span class="text-left-icon"><i class="bi bi-envelope"></i></span>
+                          </div>
+                        </div>
+  
+                        <div class="mb-3">
+                          <div class="select-container">
+                              <label for="select2-example">Phone</label>
+                              <div class="select-box">
+                                  <div class="selected-option">
+                                      <div>
+                                          <span class="iconify" data-icon="flag:gb-4x3"></span>
+                                          <strong>+44</strong>
+                                      </div>
+                                      <input type="tel" name="tel" placeholder="Phone Number" inputmode="numeric" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10">
+                                  </div>
+                                  <div class="options">
+                                      <input type="text" class="search-box" placeholder="Search Country Name">
+                                      <ol>
+                          
+                                      </ol>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+  
+                        <div class="m-text-center">
+                          <a href="#" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#sent-otp-popup" class="btn btn-danger new-button-css-for-search fs-8">Send OTP</a>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  <div class="modal fade gat-callback-border sent-otp-inner" id="sent-otp-popup" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-sm">
+        <div class="modal-content">
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-7 mx-auto text-center">
+                  <div class="send-otp-popup py-5">
+                    <div class="call-back-header">
+                      <p>Enter the 6 digit OTP which we have send to ******6756 authentication app</p>
+                    </div>
+                    <form> 
+                      <div class="row">
+                          <div class="col-lg-6 mx-auto">
+                            <div class="mb-3">
+                              <input type="text" class="form-control border mobile-form-select real-inputbox-shadow text-center" placeholder="*   *   *   *   *   *" />
+                            </div>
+                          </div>
+                      </div>
+                        
+  
+                        <div class="m-text-center">
+                          <a href="#" class="btn btn-danger new-button-css-for-search fs-8">Get a Call Back</a>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+  <i class="bi bi-arrow-up-short"></i>
+</a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery-1-12.js"></script> 
+<script src="assets/js/owl-carousel.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/extra-listing.js"></script>
+<script src="assets/js/phone-number.js"></script>
+<script src="assets/js/iconify-flag.js"></script>
+
+<script id="traffic-popup-map-template" type="text/x-custom-template">
+  <div>
+      <table width="100%">
+          <tr>
+              <td width="90">
+                  <div class="blii"><img src="{{ $property.image_thumb }}" width="80" alt="{{ $property.name }}">
+                      <div class="status">{!! $property.status_html !!}</div>
+                  </div>
+              </td>
+              <td>
+                  <div class="infomarker">
+                      <h5><a href="{{ $property.url }}" target="_blank">{{ $property.name }}</a></h5>
+                      <div class="text-info"><strong>{{ $property.price_html }}</strong></div>
+                      <div>{{ $property.city_name }}</div>
+                      <div>
+                          <span>{{ $property.square_text }}</span> &nbsp; &nbsp;
+                          <span>
+                              <i><img src="{{ Theme::asset()->url('images/bed.svg') }}" alt="icon"></i>
+                              <i class="vti">{{ $property.number_bedroom }}</i>
+                          </span> &nbsp; &nbsp;
+                          <span>
+                              <i><img src="{{ Theme::asset()->url('images/bath.svg') }}" alt="icon"></i>
+                              <i class="vti">{{ $property.number_bathroom }}</i>
+                          </span>
+                      </div>
+                  </div>
+              </td>
+          </tr>
+      </table>
+  </div>
+</script>
+
+<!---------------multiple select location css--------------->
+<script src="assets/js/select2-min.js"></script>
+<script src="assets/js/flatpickr.min.js"></script>
+
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+<!------price slider range js----->
+
+<script>
+  // Initialize the map
+  var map = L.map("leaflet-map-pg-map").setView([51.505, -0.09], 13);
+  
+  // Add OpenStreetMap tile layer
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
+  
+  // Define a custom map icon for the markers
+  var mapIcon = L.icon({
+    iconUrl: 'assets/img/services/map-icon.png',
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+  });
+  
+  // List of property items to create markers
+  var listItems = document.querySelectorAll(".property-item");
+  var markers = [];
+  var markerCluster = L.markerClusterGroup();
+  
+  // Create markers for each property item
+  listItems.forEach(function (listItem) {
+    var lat = parseFloat(listItem.getAttribute("data-lat"));
+    var lon = parseFloat(listItem.getAttribute("data-lon"));
+    var imageThumb = listItem.getAttribute("data-image_thumb");
+    var name = listItem.getAttribute("data-name");
+    var url = listItem.getAttribute("data-url");
+    var price = listItem.getAttribute("data-price_html");
+    var cityName = listItem.getAttribute("data-city_name");
+    var squareText = listItem.getAttribute("data-square_text");
+    var numBedrooms = listItem.getAttribute("data-number_bedroom");
+    var numBathrooms = listItem.getAttribute("data-number_bathroom");
+  
+    // Use the custom map icon for markers
+    var marker = L.marker([lat, lon], { icon: mapIcon });
+  
+    // Create the popup content with the same class names and structure
+    var popupContent = `
+      <div class="leaflet-popup-content custom-popup" style="width: 250px;">
+        <div class="property-item d-flex mb-0">
+          <div class="box-property content">
+            <div class="testimonial__area">
+              <div class="wrapper">
+                <div class="testimonial">
+                  <div class="testimonial__card--group">
+                    <div class="testimonial__card">
+                      <img src="${imageThumb}" class="img-fluid border-r-t-b" alt="${name}">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="media-count-wrapper-1 media-count-wrapper-pg">
+              <ul class="new-design-up-image">
+                <li>
+                  <div class="icon">
+                    <p class="mb-0">Active</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="product-deatils">
+            <div class="innerOne justify-content-between align-items-center pb-0 ps-2 pt-2">
+              <div class="nameProerty nameProerty-1">
+                <h5 class="mb-1"><a href="${url}" target="_blank">${name}</a></h5>
+                <p class="pg-location mb-2"><span class="text-danger"><i class="bi bi-geo-alt"></i></span>${cityName}</p>
+                <div class="new-button-flex">
+                  <ul class="all-common-style all-common-style-1 d-flex justify-content-between mb-0">
+                    <li>
+                      <div class="bg-lyellow">
+                        <p class="new-property-details price-1 fw-500 mb-0">Price</p>
+                        <p class="fs-14 bold mb-0">₹ ${price}</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <p class="new-property-details-1 price-1 fw-500 mt-2 mb-0">Listed on : <span class="text-dark"> 28/04/2024 </span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  
+    // Bind the popup content to the marker
+    marker.bindPopup(popupContent);
+  
+    // Event handler for list item hover
+    listItem.addEventListener("mouseover", function () {
+      if (markerCluster.hasLayer(marker)) {
+        markerCluster.zoomToShowLayer(marker, function () {
+          marker.openPopup();
+        });
+      } else {
+        marker.openPopup();
+      }
+      listItem.classList.add("highlighted");
+    });
+  
+    listItem.addEventListener("mouseout", function () {
+      listItem.classList.remove("highlighted");
+    });
+  
+    markers.push(marker);
+  });
+  
+  // Add the markers to the marker cluster group
+  markers.forEach(function (marker) {
+    markerCluster.addLayer(marker);
+  });
+  
+  // Add the cluster group to the map
+  map.addLayer(markerCluster);
+</script>
+
+  
+    
+
+
+<script>
+    jQuery(".owl-carousel.owl-carousel-1").owlCarousel({
+        autoplay: true,
+        margin: 20,
+        responsiveClass: true,
+        slideSpeed: 1000,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+                dots: true,
+                
+            },
+            600: {
+                items: 2,
+                nav: true,
+                dots: false,
+               
+            },
+            1024: {
+                items: 3,
+                nav: true,
+                dots: false,
+            },
+            1366: {
+                items: 4,
+                nav: true,
+                dots: false,
+                
+            }
+        }
+    });
+  </script>
+<!-----select property option------>
+<script>
+function toggleActive(element) {
+  // Remove active class from all links
+  var links = document.querySelectorAll('.new-button-for-property-style .new-effect');
+  links.forEach(function(link) {
+    link.classList.remove('active');
+  });
+
+  // Add active class to the clicked link
+  element.classList.add('active');
+}
+</script>
+
+<!----------select2 multiple select js external----------->
+<script>
+  $(document).ready(function() {
+    $('#location-property').select2({
+      theme: 'bootstrap4',
+      width: 'style',
+      placeholder: $('#location-property').data('placeholder'),
+      allowClear: Boolean($('#location-property').data('allow-clear'))
+    });
+  });
+</script>
+    <script>
+    var SuperPlaceholder = function(options) {  
+  this.options = options;
+  this.element = options.element
+  this.placeholderIdx = 0;
+  this.charIdx = 0;
+  
+
+  this.setPlaceholder = function() {
+      placeholder = options.placeholders[this.placeholderIdx];
+      var placeholderChunk = placeholder.substring(0, this.charIdx+1);
+      document.querySelector(this.element).setAttribute("placeholder", this.options.preText + " " + placeholderChunk)
+  };
+  
+  this.onTickReverse = function(afterReverse) {
+    if (this.charIdx === 0) {
+      afterReverse.bind(this)();
+      clearInterval(this.intervalId); 
+      this.init(); 
+    } else {
+      this.setPlaceholder();
+      this.charIdx--;
+    }
+  };
+  
+  this.goReverse = function() {
+      clearInterval(this.intervalId);
+      this.intervalId = setInterval(this.onTickReverse.bind(this, function() {
+        this.charIdx = 0;
+        this.placeholderIdx++;
+        if (this.placeholderIdx === options.placeholders.length) {
+          // end of all placeholders reached
+          this.placeholderIdx = 0;
+        }
+      }), this.options.speed)
+  };
+  
+  this.onTick = function() {
+      var placeholder = options.placeholders[this.placeholderIdx];
+      if (this.charIdx === placeholder.length) {
+        // end of a placeholder sentence reached
+        setTimeout(this.goReverse.bind(this), this.options.stay);
+      }
+      
+      this.setPlaceholder();
+    
+      this.charIdx++;
+    }
+  
+  this.init = function() {
+    this.intervalId = setInterval(this.onTick.bind(this), this.options.speed);
+  }
+  
+  this.kill = function() {
+    clearInterval(this.intervalId); 
+  }
+}
+  </script>
+  <script>
+    // Initialize GLightbox for the first section
+    const lightboxGallery1 = GLightbox({
+       selector: '#gallery-pg-img-list .glightbox'
+   });
+
+   // Initialize GLightbox for the second section
+   const lightboxGallery2 = GLightbox({
+       selector: '#another-gallery .glightbox'
+   });
+</script>
+<script>
+    function toggleWishlist(button) {
+        const icon = button.querySelector('.wishlist i');
+        // Toggle between heart and filled heart icons
+        icon.classList.toggle('bi-suit-heart-fill');
+        icon.classList.toggle('bi-suit-heart');
+        // Toggle background color
+        button.classList.toggle('filled');
+    }  
+</script>
+<script>
+    $(document).ready(function() {
+        // Initialize Flatpickr with 'allowInput' set to true
+        $("#rangeDate").flatpickr({
+            allowInput: true, // Allows manual text input
+            dateFormat: "Y-m-d", // Desired internal date format
+            altInput: true, // Human-readable display format
+            altFormat: "F j, Y", // Format for display to users
+        });
+    
+    });
+    </script>
+
+ 
+  </body>
+</html>
